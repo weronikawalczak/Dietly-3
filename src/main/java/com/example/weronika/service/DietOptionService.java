@@ -19,10 +19,12 @@ public class DietOptionService {
     }
 
     public DietOption addDietOption(@RequestBody DietOption dietOption){
+        //TODO Implement addition to Diet and handle DietCalories if present
         return dietOptionRepo.addDietOption(dietOption);
     }
 
     public void editDietOption(@RequestBody DietOption dietOption){
+        //TODO implement
         dietOptionRepo.updateDietOption(dietOption);
     }
 }

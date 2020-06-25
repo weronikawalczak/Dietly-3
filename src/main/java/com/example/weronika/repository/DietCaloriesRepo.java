@@ -1,7 +1,6 @@
 package com.example.weronika.repository;
 
 import com.example.weronika.entity.DietCalories;
-import com.example.weronika.entity.DietOption;
 import org.springframework.stereotype.Repository;
 
 

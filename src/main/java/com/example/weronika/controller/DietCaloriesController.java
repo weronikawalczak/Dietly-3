@@ -13,17 +13,17 @@ public class DietCaloriesController {
     }
 
     @GetMapping("/dietCalories/{id}")
-    public DietCalories getDietOption(@PathVariable String id){
+    public DietCalories getDietCalories(@PathVariable String id){
         return dietCaloriesService.getDietCaloriesById(id);
     }
 
     @PostMapping("/dietCalories")
-    public DietCalories addDietOption(@RequestBody DietCalories dietCalories){
+    public DietCalories addDietCalories(@RequestBody DietCalories dietCalories){
         return dietCaloriesService.addDietCalories(dietCalories);
     }
 
     @PutMapping("/dietCalories/")
-    public void editDietOption(@RequestBody DietCalories dietCalories){
+    public void editDietCalories(@RequestBody DietCalories dietCalories){
         dietCaloriesService.editDietCalories(dietCalories);
     }
 }

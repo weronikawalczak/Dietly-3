@@ -19,6 +19,7 @@ public class DietService {
     }
 
     public Diet addDiet(@RequestBody Diet diet){
+        //TODO Implement addition of DietOptions and Calories if new present
         return dietRepo.addDiet(diet);
     }
 

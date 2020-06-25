@@ -19,6 +19,6 @@ public class DietOptionRepo {
 
 
     private DietOption getExampleDietOption() {
-        return new DietOption(1, "option1", "first");
+        return new DietOption(1, "option1", "firstOption");
     }
 }
